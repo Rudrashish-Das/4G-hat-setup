@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /home/$(whoami)/igdrones/startup/ssh-tunnel-ngrok.sh
+ExecStart=/bin/bash /home/pi/igdrones/startup/ssh-tunnel-ngrok.sh
 TimeoutStartSec=0
 
 [Install]
